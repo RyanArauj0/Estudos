@@ -154,7 +154,7 @@ body {
     text-decoration: underline whitesmoke;
 }
 
-@media screen and (max-widht: 1364px) {
+/*@media screen and (max-widht: 1364px) {
     .form-image {
         display: none;
     }
@@ -166,20 +166,16 @@ body {
     .form {
     width: 100%;
     }
-}
+}*/
 
-@media screen and (mix-widht: 1064px) {
-    .container {
-        width: 90%;
-        height: auto;
+@media screen and (max-widht: 850px) {
+    .form-image {
+        display: none;
     }
-
-  
-    .input-group {
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        max-height: 10rem;
-        padding-right: 5rem;
+    .container {
+        width: 50%;
+    }
+    .form {
+    width: 100%;
     }
 }
